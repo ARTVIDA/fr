@@ -174,3 +174,14 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+<style>
+  a img {
+    border: none; /* Supprime les bordures des images dans les liens */
+    text-decoration: none; /* Supprime toute décoration sous les liens */
+  }
+
+  a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: inherit; /* Hérite la couleur du texte parent */
+  }
+</style>
