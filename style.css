@@ -1,6 +1,13 @@
 /* Police personnalisée */
 body {
-  font-family: 'Gotu', sans-serif;
+  
+  
+    font-family: 'Gotu', sans-serif;
+    font-smooth: auto; /* Pour les anciennes versions de Safari */
+    -webkit-font-smoothing: antialiased; /* Pour Chrome */
+    -moz-osx-font-smoothing: grayscale; /* Pour Firefox */
+}
+
 
 }
 .bg-1 { background-color: #F4F4F9; /* Gris clair pour le fond */ }
